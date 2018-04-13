@@ -13,6 +13,12 @@ cd hangman
 ruby hangman.rb
 ```
 
+## Notable Improvements
+
+- More words, now grabbed from a text file. Add your own!
+- Guessed letters are now shown
+- Invalid inputs are no longer counted as words
+
 ## License
 
 http://ltej.mit-license.org/
