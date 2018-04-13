@@ -26,7 +26,7 @@ class HangmanGame
 
       already_guessed?
 
-      @guessed_letters << @letter
+      @guessed_letters << @letter unless @letter.size != 1
 
       if lives? && !won?
         make_response
