@@ -77,7 +77,7 @@ class HangmanGame
       @turns -= 1
       puts "Fool, this word does not contain your worthless letter #{@letter}. You have #{@turns} guesses left."
     end
-    puts "Letters guessed: #{@guessed_letters.split(' ')}"
+    puts "Letters guessed: #{@guessed_letters.join(' ')}"
   end
 
   def find_letter
